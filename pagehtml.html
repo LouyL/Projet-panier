@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Robe traditionnelle polonaise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="verif.css">
+    <link rel="stylesheet" href="lapp.css">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <meta name="description" content="A propos de nous et de notre magasin ! Découvrez la ou tout a commencer ! ">
+    <meta name="keywords" content="magasin, polonais, e-commerce, local, spécialité, divers">
+</head>
+
+<body>
+    <header class="top-bar">
+        <nav>
+            <a href="index.html" class="alim">Alimentaire</a>
+            <a href="indexsouvenir.html" class="souvenir">Souvenirs</a>
+            <a href="alcoolindex.html" class="spiritueux">Spiritueux</a>
+            <a href="projetsimplonnous.html" class="blog">Blog</a>
+        </nav>
+        <nav>
+            <div class="social">
+                <button class="lang button" onclick="changeLanguage('fr')"><img src="img/icofr.png" alt="Traduction Française"
+                        title="Traduction Française" class="button-flag"></button>
+                <button class="lang button" onclick="changeLanguage('en')"><img src="img/icoengl.png" alt="Traduction Anglaise"
+                        title="Traduction Anglaise" class="button-flag"></button>
+                <button class="lang button" onclick="changeLanguage('pl')"><img src="img/icopolo.png" alt="Traduction Polonaise"
+                        title="Traduction Polonaise" class="button-flag"></button>
+            </div>
+        </nav>
+    </header>
+    <div class="banniere">
+        <img src="img/logo.png" alt="Logo du site" class="logo-banner">
+    </div>
+    <!-- <div id="conteneur">      
+        <div class="manip" href="#popup-product" onclick="loadProduct('Bigos', '17€/kg', 'Choucroute polonaise au paprika')">
+            <div class="title">
+            <a href="#">Bigos Polonais</a>
+            <div class="image">
+                <img src="img/bigos.jpeg">   
+            </div>
+            
+        </div>
+            </div>      
+        <div class="manip"  href="#popup-product" onclick="loadProduct('Zapiekanka', '20€/kg', 'Demi baguette,champignon,fromage')">
+            <a href="#">zapiekanka</a>
+            <div class="image">
+                <img src="img/zapiekanka.jpg">
+            </div>
+        </div>
+</div>  -->
+
+
+
+
+
+
+
+
+
+    <!--<button id="myBtn">Allez au panier</button>  -->
+<div class="content">
+
+
+    <div class="tous">
+        <div class="onglet">
+            <button class="tablinks" onclick="openCity(event, 'description')">DESCRIPTION</button>
+            <button class="tablinks" onclick="openCity(event, 'fichetech')">FICHE TECHNIQUE</button>
+            <button class="tablinks" onclick="openCity(event, 'com')">COMMENTAIRES</button>
+        </div>
+
+        <!-- onglet content -->
+        <div id="description" class="ongletcontent">
+            <h3>DESCRIPTION</h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <th colspan="9">WOMEN CLOTHES SIZING</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><b>Our size</b></td>
+                        <td><b>XS</b></td>
+                        <td><b>S</b></td>
+                        <td><b>M</b></td>
+                        <td><b>L</b></td>
+                        <td><b>XL</b></td>
+                        <td><b>XXL</b></td>
+                        <td><b>XXXL</b></td>
+                    </tr>
+                    <tr class="r2">
+                        <td rowspan="2"><b>Bust</b></td>
+                        <td>inches</td>
+                        <td>31½</td>
+                        <td>33</td>
+                        <td>34½-36</td>
+                        <td>38-39</td>
+                        <td>41-43</td>
+                        <td>45½-48</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>cm</td>
+                        <td>80</td>
+                        <td>84</td>
+                        <td>88-92</td>
+                        <td>96-100</td>
+                        <td>104-110</td>
+                        <td>116-122</td>
+                        <td>128</td>
+                    </tr>
+                    <tr class="r2">
+                        <td rowspan="2"><b>Waist</b></td>
+                        <td>inches</td>
+                        <td>24-25</td>
+                        <td>26-27</td>
+                        <td>27½-29</td>
+                        <td>31-32</td>
+                        <td>34-36</td>
+                        <td>38½-41</td>
+                        <td>43</td>
+                    </tr>
+                    <tr>
+                        <td>cm</td>
+                        <td>62-64</td>
+                        <td>66-68</td>
+                        <td>70-74</td>
+                        <td>78-82</td>
+                        <td>86-92</td>
+                        <td>98-104</td>
+                        <td>110</td>
+                    </tr>
+                    <tr class="r2">
+                        <td rowspan="2"><b>Hips</b></td>
+                        <td>inches</td>
+                        <td>34</td>
+                        <td>35-36</td>
+                        <td>37-38½</td>
+                        <td>40-42</td>
+                        <td>43-46</td>
+                        <td>48-50</td>
+                        <td>53</td>
+                    </tr>
+                    <tr>
+                        <td>cm</td>
+                        <td>86</td>
+                        <td>90-92</td>
+                        <td>94-98</td>
+                        <td>102-106</td>
+                        <td>110-116</td>
+                        <td>122-128</td>
+                        <td>134</td>
+                    </tr>
+                    <tr class="r2">
+                        <td colspan="2"><b>US</b></td>
+                        <td><b>2</b></td>
+                        <td><b>4</b></td>
+                        <td><b>6-8</b></td>
+                        <td><b>10-12</b></td>
+                        <td><b>14-16</b></td>
+                        <td><b>18-20</b></td>
+                        <td><b>22</b></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><b>EU</b></td>
+                        <td><b>34</b></td>
+                        <td><b>36</b></td>
+                        <td><b>38-40</b></td>
+                        <td><b>42-44</b></td>
+                        <td><b>46-48</b></td>
+                        <td><b>50-52</b></td>
+                        <td><b>54</b></td>
+                    </tr>
+                    <tr class="r2">
+                        <td colspan="2"><b>U.K.</b></td>
+                        <td><b>4</b></td>
+                        <td><b>6</b></td>
+                        <td><b>8-10</b></td>
+                        <td><b>12-14</b></td>
+                        <td><b>14-16</b></td>
+                        <td><b>18-20</b></td>
+                        <td><b>22</b></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><b>France</b></td>
+                        <td><b>32</b></td>
+                        <td><b>34</b></td>
+                        <td><b>36-38</b></td>
+                        <td><b>40-42</b></td>
+                        <td><b>44-46</b></td>
+                        <td><b>48-50</b></td>
+                        <td><b>52</b></td>
+                    </tr>
+                    <tr class="r2">
+                        <td colspan="2"><b>Germany</b></td>
+                        <td><b>30</b></td>
+                        <td><b>32</b></td>
+                        <td><b>34-36</b></td>
+                        <td><b>38-40</b></td>
+                        <td><b>42-44</b></td>
+                        <td><b>46-48</b></td>
+                        <td><b>50</b></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><b>Italy</b></td>
+                        <td><b>36</b></td>
+                        <td><b>38</b></td>
+                        <td><b>40-42</b></td>
+                        <td><b>44-46</b></td>
+                        <td><b>48-50</b></td>
+                        <td><b>52-54</b></td>
+                        <td><b>56</b></td>
+                    </tr>
+                    <tr class="r2">
+                        <td colspan="2"><b>Australia</b></td>
+                        <td><b>6</b></td>
+                        <td><b>8</b></td>
+                        <td><b>10-12</b></td>
+                        <td><b>14-16</b></td>
+                        <td><b>18-20</b></td>
+                        <td><b>22-24</b></td>
+                        <td><b>26</b></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><b>Japan</b></td>
+                        <td><b>5</b></td>
+                        <td><b>7</b></td>
+                        <td><b>9-11</b></td>
+                        <td><b>13-15</b></td>
+                        <td><b>17-19</b></td>
+                        <td><b>21-23</b></td>
+                        <td><b>25</b></td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+        </div>
+
+        <div id="fichetech" class="ongletcontent">
+            <h3>FICHE TECHNIQUE</h3>
+            <p>Ce costume est constituer de tissus :<br>
+                - De coton <br>
+                - De lin <br>
+                - De satin <br>
+                - De gabardine. <br>
+
+                Conception : Modelé folklore <br>
+
+                Livraison : <br>
+                Pres a expédier sous 1-3 jours ouvrés <br>
+                Depuis le pays : Pologne <br>
+                Fraie de port selon le pays <br>
+                Retours et échanges acceptés <br>
+                Emballage cadeau possible</p>
+        </div>
+        <div id="com" class="ongletcontent">
+            <h3>COMMENTAIRES(2)</h3>
+            <p>Michel: <br>
+                Pour le carnaval, super traditionnel et de toute les tailles <br>
+                
+                Jacquie: <br>
+                J'ai achaté cette tenue tratitionnel pour ma femme, Facile a retiré ;)</p>
+        </div>
+        
+    </div>
+    <!-- FIN DE TOUS -->
+
+    <!-- <a href="#">robe</a> -->
+    <div class="imageimg">
+        <img class="limg" src="img/robe1.jpg">
+    </div>
+
+
+
+
+    <div class="conteneurD">
+        <p class="robetradi">Robe traditionnelle polonaise</p>
+        <p class="prix">EUR 19.99€</p>
+        <p class="expedition24">Habituellement expédié sous 2 à 4 semaines</p>
+        <br>
+        <a href="#" class="bouton3">Ajouter au panier</a>
+    </div>
+
+
+</div>
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="login">
+                <div class="login-triangle"></div>
+                <h2 class="login-header">Vérification âge</h2>
+                <form class="login-container">
+                    <p>Quel âge tu as ? <input type="number" class="age" name="age" placeholder="19" required /></p>
+                    <button type="button" onclick="enter()" on class="login-button">Voir mon panier</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-product" class="overlay">
+        <div class="popup">
+            <h2 class="title"></h2>
+            <a class="close" href="#" onclick="closePopup()">&times;</a>
+            <div class="prix"></div>
+            <div class="content">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function loadProduct(titre, prix, desc) {
+            var popup = document.querySelector('.popup');
+            popup.querySelector(".content").innerHTML = desc;
+            popup.querySelector('.title').innerHTML = titre;
+            popup.querySelector('.prix').innerHTML = prix;
+            var overlay = document.querySelector('.overlay');
+            overlay.style.visibility = "visible";
+            overlay.style.opacity = "1";
+        }
+        function closePopup() {
+            var overlay = document.querySelector('.overlay');
+            overlay.style.visibility = "hidden";
+            overlay.style.opacity = "0";
+        }
+    </script>
+    <script src="verification.js"></script>
+    <script src="lang.js"></script>
+    <script src="language.js?fgfdg"></script>
+    <script src="lejava.js"></script>
+</body>
+
+</html>

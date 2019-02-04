@@ -1,0 +1,143 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.content {
+  display: flex
+}
+
+/* Style l'onglet - le block d'ongler */
+.onglet {
+    overflow: hidden;
+    /* border: 1px solid 1px solid #d3ced2; */
+    /* background-color: #ffffff; */
+    /* width: 35%; */
+    border-radius: 30px;
+    margin-left: 10%;
+  }
+  
+  /* Style les boutons qui sont utilisés pour ouvrir le contenu de l'onglet */
+  .onglet button {
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(182, 46, 46);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  }
+  
+  /* Changer la couleur de fond des boutons en survol */
+  .onglet button:hover {
+    background-color: rgb(100, 17, 17);
+    
+  }
+  
+  /* Créer une classe active / actuelle de tablink */
+  .onglet button.active {
+    background-color: rgb(100, 17, 17);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  }
+  
+  /* Style le contenu des l'onglets le menus quand on clic */
+  .ongletcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 4px solid rgb(100, 17, 17);
+    /* border-top: none; */
+    border-radius: 30px; 
+    margin-top: 1%;
+    border-style: outset;
+    width: fit-content;
+  }
+
+  .imageimg{
+      /* top: 65px; */
+      -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  }
+
+  .imageimg:hover{
+     
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0);
+
+  }
+  
+  .limg{
+    border-style: solid;
+    border-color: rgba(97, 77, 77, 0.507);
+    height: 550px;
+    margin-top: 60px;
+    
+  }
+
+  .tous{
+    width: 50%;
+    margin: 20px;
+  }
+  
+  table {
+    border: 3px ridge rgb(100, 17, 17);
+    
+}
+
+th {
+    border: 3px solid rgb(100, 17, 17);
+    
+}
+
+td {
+    border: 3px solid rgb(100, 17, 17);
+}
+.conteneurD{
+  margin-left: 35px;
+  margin-top: 10%;
+  
+}
+
+.robetradi{
+  font-size: larger;
+  font-family: 'Staatliches', cursive;
+  margin-left: 25px;
+   text-decoration-line: overline;/*ca se souligne au dessus */
+  
+}
+.prix{
+  font-size: larger;
+  font-family: 'Staatliches', cursive;
+  font-weight: 700;
+  color: red;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+.expedition24{
+  font-size: small;
+  font-family: 'Staatliches', cursive;
+  margin-left: 25px;
+}
+a.bouton3 {
+  padding: 10px 30px;
+  background: rgb(182, 46, 46);
+  color: #000000;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px;
+  margin-left: 35px;
+
+  
+  
+  }
+  a.bouton3:hover {
+  background: rgb(100, 17, 17);
+  color: #000000;
+  }

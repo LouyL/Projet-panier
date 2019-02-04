@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background: #fbfbfb;
+}
+
+.top-bar {
+    background: #ffffff;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 30px;
+    z-index: 3;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+
+}
+
+.top-bar nav {
+    text-align: center;
+}
+
+.top-bar nav a {
+    color: #9f9f9f;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 53px;
+}
+
+.top-bar nav a:hover, .top-bar nav a.active{
+    color: #e73131fd;
+    text-decoration: underline;
+}
+
+.social {
+    float: right;
+    margin-top: -25px;
+}
+
+.social a {
+    padding: 0px 12px;
+    opacity: .4;
+}
+
+.social a:hover {
+    opacity: 1;
+}
+
+
+/* A partir d'ici section work-team */
+
+.content-global-notreEquipe{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+.content-people, .content-people img{
+    width: 240px;
+    overflow: hidden;
+    margin: 20px 0px;
+}
+
+.content-people{
+    height: 320px;
+    margin: 0px 20px;
+}
+
+.content-text{
+    background: rgba(237, 237, 237, 1);
+    font-family: "Roboto Condensed",sans-serif;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: -60px;
+    transition: 0.5s;
+}
+
+.arrow-content{
+    background: rgba(237, 237, 237, 1);
+    color: #b1b1b1;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 50px;
+    position: relative;
+    top: -40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    font-size: 30px;
+}
+
+.textes{
+    position: relative;
+    top: -45px;
+}
+
+.textes h3, h4{
+    margin-bottom: 15px;
+}
+
+.textes .description{
+    color: #727272;
+    position: relative;
+    top: 10px;
+}
+
+.content-social{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-social i{
+    border: 1px solid #b1b1b1;
+    color: #b1b1b1;
+    padding: 5px 10px;
+}
+
+.content-social i:hover{
+    border: 1px solid rgb(48, 147, 37);
+    color: rgb(48, 147, 37);
+    cursor: pointer;
+}
+
+.content-people:hover .content-text{
+    top: -200px;
+    transition: 0.5s;
+}
+
+
+.p-texte {
+    text-align: center;
+}
+
+.div-form {
+    margin-left: 570px;
+    margin-top: 100px;
+}
+

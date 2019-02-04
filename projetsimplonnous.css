@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background: #fbfbfb;
+}
+
+.top-bar {
+    background: #ffffff;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 30px;
+    z-index: 3;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+
+}
+
+.top-bar nav {
+    text-align: center;
+}
+
+.top-bar nav a {
+    color: #9f9f9f;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 53px;
+}
+
+.top-bar nav a:hover, .top-bar nav a.active{
+    color: #e73131fd;
+    text-decoration: underline;
+}
+
+.social {
+    float: right;
+    margin-top: -25px;
+}
+
+.social a {
+    padding: 0px 12px;
+    opacity: .4;
+}
+
+.social a:hover {
+    opacity: 1;
+}
+
+.banniere {
+    height: 427px;
+    width: 100%;
+    background: no-repeat center center / cover url("img/numeroun.png"); 
+}
+
+.logo-banner {
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+
+
+
+/* Ceci est la partie de mon " article team " */ 
